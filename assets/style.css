@@ -8,47 +8,44 @@
     align-items: center;
     min-height: 100vh;
     background-color: #e5d3b3;
-  }
+   } 
+
+   nav {
+    align-self: center;
+   }
   
   nav ul {
     list-style: none;
     display: flex;
     float: right;
-    position: absolute;
-    right: 40px;
-    width: auto;
   }
   
   nav li {
-    margin-right: 120px;
+    margin-left: 110px;
+    margin-right: 10px;
   }
   
   nav a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     text-decoration: none;
     color: gray;
     font-size: 30px;
-    position: relative;
-    top: -33px; 
   }
   
-  .header {
+  header {
     width: 100%;
-    height: 110px;
+    /* height: 110px; */
     background-color: #d2b48c;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    /*justify-content: center;
+    align-items: center;*/
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
 
-  .header h1 {
-    display: flex;
-    justify-content: left;
+  header h1 {
     font-size: 80px;
-    margin-left: 6%;
     color: gray;
+    margin: 0;
   }
   
   .mypic {
@@ -61,17 +58,21 @@
     padding: 10px 0;
   }
 
+  .aboutwrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
   .containeraboutme {
     display: flex;
     flex-direction: column;
-    justify-content:right;
     align-items: center;
     padding: 20px;
     margin-bottom: 20px;
-    position: relative;
-    left: 300px;
-    bottom: 440px;
+    width: 55%;
   }
+  
   .about-me {
     display: flex;
     justify-content: right;
@@ -89,42 +90,23 @@
     margin-bottom: 20px;
     width: 55%;
   }
-  #Work {
-    padding: 10px 0;
-  }
   
-  .containerwork {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    margin-bottom: 20px;
-  }
-
-  .workprojects {
-    display: flex;
-  }
- 
   .container {
+    display: grid;
     background-color: #d2b48c;
     margin-top: 20px;
     width: 100%;
-    position: relative;
-    bottom: 330px;
-    height: 980px;
   }
-
-  .horiseon:hover {
-    background-color: grey;
+  
+  .horiseon:hover, .ph1:hover, .ph2:hover, .ph3:hover, .ph4:hover {
+    background-color: #b99976;
   }
 
   .horiseon-image {
-    width: 500px;
-    height: 670px;
-  }
-
-  .horiseon-image:hover{
-    background-color: grey;
+    width: 460px;
+    height: 650px;
+    margin-right: 20px;
+    margin-left: 20px;
   }
   
   .work {
@@ -135,20 +117,32 @@
     text-align: center;
     width: 97%;
     position: relative;
-    bottom: 50px;
+    bottom: 15px;
+  }
+
+  .workprojects {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
   }
 
   .horiseon {
-    display: inline;
     text-align: center;
     height: 780px;
     width: 500px;
     background-color: #987554;
-    position: absolute;
-    left: 50px;
-    top: 160px;
-    border: 10px;
     border-style: solid;
     border-color: black;
+    margin-bottom: 40px;
+    }
 
+  .ph1, .ph2, .ph3, .ph4 {
+align-self: center;
+    text-align: center;
+    background-color: #987554;
+    height: 50%;
+    padding: 10px;
+    border: 3px;
+    border-style: solid;
+    border-color: black;
   }
