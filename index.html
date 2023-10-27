@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jesse Nay's Portfolio</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    
+    <header class="header">
+        <h1 class="header h1">Jesse Nay</h1>
+        <nav>
+            <ul>
+                <li><a href="#About-Me">About Me</a></li>
+                <li><a href="#Work">Work</a></li>
+                <li><a href="#Contact-Me">Contact Me</a></li>
+                <li><a href="#Resume">Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main> 
+        <img src="./assets/images/portfolio-picture.jpeg" height="500px" alt="picture of me" class="mypic">     
+         <section class="containeraboutme">
+            <h2 class="about-me">About Me</h2>
+            <p class="about-me-p">
+               Hello, my name is Jesse Nay I am a Full-stack developer based in Utah. I have always had a deep
+             interest in coding and the ways that we can communicate with computers. I adore what I do and love the
+             creative process and problem-solving that web development entails. I am also passionate about the outdoors.
+             I enjoy fly fishing and snowboarding and many other recreational activities. I believe that my diverse
+             interests would make me a great fit for any team.
+            </p>
+        </section>
+
+    <div class="container">
+        <section class="containerwork">
+            <div id="Work"></div>
+            <h1 class="work">Work</h1>
+            <section class="workprojects">
+                <h3>Horiseon Refactoring</h3>
+                    <p></p>
+                <h3>TBD</h3>
+                    <p></p>
+                <h3>TBD</h3>
+                    <p></p>
+                <h3>TBD</h3>
+                    <p></p>
+            </section>
+     
+        </section>
+    </div>
+
+        
+        <section>
+            <h2>Contact Me</h2>
+                <h3>Email & Phone #</h3>
+                    <p>jessenay26@gmail.com / #(435) 201-2411</p>
+        </section>
+        <h2>Resume</h2>
+            <p>"link to resume"</p>
+    </main>
+    <script>
+        const navLinks = document.querySelectorAll('nav a');
+    
+        navLinks.forEach((link) => {
+          link.addEventListener('click', (event) => {
+            event.preventDefault();
+            const target = document.querySelector(link.getAttribute('href'));
+            target.scrollIntoView({ behavior: 'smooth' });
+          });
+        });
+      </script>
+    
+    
+</body>
+</html>

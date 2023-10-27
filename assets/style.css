@@ -1,0 +1,120 @@
+  html {
+    scroll-behavior: smooth;
+}
+
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #e5d3b3;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    float: right;
+    position: absolute;
+    right: 40px;
+  }
+  
+  nav li {
+    margin-right: 120px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: gray;
+    font-size: 30px;
+    position: relative;
+    top: -35px;
+    
+  }
+  
+  .header {
+    width: 100%;
+    height: 110px;
+    background-color: #d2b48c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header h1 {
+    font-size: 80px;
+    position: absolute;
+    right: 665px;
+    color: gray;
+  }
+  
+  .mypic {
+    padding: 10px;
+    border: 10px solid #987554;
+    margin-top: 10px;
+  }
+  
+  #About-me {
+    padding: 10px 0;
+  }
+
+  .containeraboutme {
+    display: flex;
+    flex-direction: column;
+    justify-content:right;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    left: 300px;
+    bottom: 440px;
+  }
+  .about-me {
+    display: flex;
+    justify-content: right;
+    font-size: 40px;
+    background-color: #987554;
+    color: whitesmoke;
+    margin: 30px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .about-me-p {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    width: 55%;
+  }
+  #Work {
+    padding: 10px 0;
+  }
+  
+  .containerwork {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  .workprojects {
+    display: flex;
+  }
+ 
+  .container {
+    background-color: #d2b48c;
+    margin-top: 20px;
+    width: 100%;
+    position: relative;
+    bottom: 330px;
+    height: 980px;
+  }
+  
+  .work {
+    font-size: 40px;
+    background-color: #987554;
+    color: whitesmoke;
+    margin: 30px;
+    padding: 20px;
+    text-align: center;
+  }
