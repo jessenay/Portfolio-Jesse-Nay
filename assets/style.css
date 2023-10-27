@@ -16,6 +16,7 @@
     float: right;
     position: absolute;
     right: 40px;
+    width: auto;
   }
   
   nav li {
@@ -23,12 +24,14 @@
   }
   
   nav a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-decoration: none;
     color: gray;
     font-size: 30px;
     position: relative;
-    top: -35px;
-    
+    top: -33px; 
   }
   
   .header {
@@ -41,9 +44,10 @@
   }
 
   .header h1 {
+    display: flex;
+    justify-content: left;
     font-size: 80px;
-    position: absolute;
-    right: 665px;
+    margin-left: 6%;
     color: gray;
   }
   
@@ -51,7 +55,7 @@
     padding: 10px;
     border: 10px solid #987554;
     margin-top: 10px;
-  }
+    }
   
   #About-me {
     padding: 10px 0;
@@ -109,12 +113,42 @@
     bottom: 330px;
     height: 980px;
   }
+
+  .horiseon:hover {
+    background-color: grey;
+  }
+
+  .horiseon-image {
+    width: 500px;
+    height: 670px;
+  }
+
+  .horiseon-image:hover{
+    background-color: grey;
+  }
   
   .work {
     font-size: 40px;
     background-color: #987554;
     color: whitesmoke;
-    margin: 30px;
     padding: 20px;
     text-align: center;
+    width: 97%;
+    position: relative;
+    bottom: 50px;
+  }
+
+  .horiseon {
+    display: inline;
+    text-align: center;
+    height: 780px;
+    width: 500px;
+    background-color: #987554;
+    position: absolute;
+    left: 50px;
+    top: 160px;
+    border: 10px;
+    border-style: solid;
+    border-color: black;
+
   }
