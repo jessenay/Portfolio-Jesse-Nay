@@ -14,3 +14,10 @@ N/A
 
 ## Authors
 Jesse Nay
+
+## Link to deployed application
+https://jessenay.github.io/Portfolio-Jesse-Nay/
+
+## Screenshot
+
+![jessenay github io_Portfolio-Jesse-Nay_](https://github.com/jessenay/Portfolio-Jesse-Nay/assets/141958797/d9554d2a-6798-4cb6-a8d6-5e3cb7527628)
