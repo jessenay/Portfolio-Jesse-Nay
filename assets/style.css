@@ -1,6 +1,6 @@
   html {
     scroll-behavior: smooth;
-}
+  }
 
   body {
     display: flex;
@@ -8,62 +8,58 @@
     align-items: center;
     min-height: 100vh;
     background-color: #e5d3b3;
-   } 
+  }
 
-   nav {
+  nav {
     align-self: center;
-   }
-  
+  }
+
   nav ul {
     list-style: none;
     display: flex;
-    float: right;
   }
-  
+
   nav li {
     margin-left: 110px;
     margin-right: 10px;
   }
-  
+
   nav a {
     text-decoration: none;
-    color: gray;
+    color: #28282B;
     font-size: 30px;
+    justify-content: space-between;
+    margin-right: 40px;
   }
-  
+
   header {
     width: 100%;
-    /* height: 110px; */
     background-color: #d2b48c;
     display: flex;
-    /*justify-content: center;
-    align-items: center;*/
     flex-wrap: wrap;
     justify-content: space-between;
   }
 
   header h1 {
     font-size: 80px;
-    color: gray;
+    color: #28282B;
     margin: 0;
+    margin-left: 180px;
   }
-  
+
   .mypic {
     padding: 10px;
     border: 10px solid #987554;
     margin-top: 10px;
-    }
-  
-  #About-me {
-    padding: 10px 0;
   }
 
   .aboutwrapper {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
   .containeraboutme {
     display: flex;
     flex-direction: column;
@@ -71,35 +67,38 @@
     padding: 20px;
     margin-bottom: 20px;
     width: 55%;
+    justify-content: center;
   }
-  
+
   .about-me {
-    display: flex;
-    justify-content: right;
     font-size: 40px;
     background-color: #987554;
-    color: whitesmoke;
+    color: #28282B;
     margin: 30px;
     padding: 20px;
     text-align: center;
   }
-  
+
   .about-me-p {
-    font-size: 20px;
+    font-size: 22px;
     text-align: center;
     margin-bottom: 20px;
     width: 55%;
+    color: #28282B;
   }
-  
+
   .container {
     display: grid;
     background-color: #d2b48c;
     margin-top: 20px;
-    width: 100%;
   }
-  
-  .horiseon:hover, .ph1:hover, .ph2:hover, .ph3:hover, .ph4:hover {
-    background-color: #b99976;
+
+  .horiseon:hover,
+  .ph1:hover,
+  .ph2:hover,
+  .ph3:hover,
+  .ph4:hover {
+    background-color: #6F4E37;
   }
 
   .horiseon-image {
@@ -108,16 +107,16 @@
     margin-right: 20px;
     margin-left: 20px;
   }
-  
+
   .work {
     font-size: 40px;
     background-color: #987554;
-    color: whitesmoke;
+    color: #28282B;
     padding: 20px;
     text-align: center;
-    width: 97%;
+    width: 100%;
     position: relative;
-    bottom: 15px;
+    bottom: 26px;
   }
 
   .workprojects {
@@ -132,17 +131,50 @@
     width: 500px;
     background-color: #987554;
     border-style: solid;
-    border-color: black;
+    border-color: #28282B;
     margin-bottom: 40px;
-    }
+    color: #28282B;
+  }
 
-  .ph1, .ph2, .ph3, .ph4 {
-align-self: center;
+  .ph1,
+  .ph2,
+  .ph3,
+  .ph4 {
+    align-self: center;
     text-align: center;
     background-color: #987554;
     height: 50%;
     padding: 10px;
     border: 3px;
     border-style: solid;
-    border-color: black;
+    border-color: #28282B;
+    color: #28282B;
+  }
+
+  .contactmecontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .contactalign {
+    text-align: center;
+    color: #28282B;
+  }
+
+  .contactme {
+    background-color: #987554;
+    font-size: 40px;
+    color: #28282B;
+  }
+
+  .footer {
+    background-color: #d2b48c;
+    padding: 15px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+    color: #28282B;
+    font-weight: bold;
   }
